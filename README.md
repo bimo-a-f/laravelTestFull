@@ -3,6 +3,10 @@ Test aplikasi KTP web dengan framework laravel
 * Folder DatabaseExport berisi file .sql yang digunakan untuk uji coba aplikasi ini
 * Folder KTPManager adalah folder dari project laravel yang dikerjakan
 
+**SETTING STORAGE SYMBOLIC LINK** *untuk bisa mengakses foto ktp dan template import csv*
+
+Masuk kedalam folder "KTPManager", kemudian jalankan: `php artisan storage:link`
+
 # KTPManager
 **Login :**
 
